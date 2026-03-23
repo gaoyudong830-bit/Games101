@@ -74,7 +74,7 @@ int main(int argc, const char** argv)
     Eigen::Vector3f eye_pos = {0,0,5};
 
 
-    std::vector<Eigen::Vector3f> pos
+    std::vector<Eigen::Vector3f> pos//顶点位置
             {
                     {2, 0, -2},
                     {0, 2, -2},
@@ -84,13 +84,13 @@ int main(int argc, const char** argv)
                     {-1, 0.5, -5}
             };
 
-    std::vector<Eigen::Vector3i> ind
+    std::vector<Eigen::Vector3i> ind//顶点索引
             {
                     {0, 1, 2},
                     {3, 4, 5}
             };
 
-    std::vector<Eigen::Vector3f> cols
+    std::vector<Eigen::Vector3f> cols//顶点颜色
             {
                     {217.0, 238.0, 185.0},
                     {217.0, 238.0, 185.0},
